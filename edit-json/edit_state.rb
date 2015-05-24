@@ -1,7 +1,11 @@
 # coding: utf-8
 require 'json'
 
-file = File.read('local_state')
+chromedir = "#{ENV['LOCALAPPDATA']}" + '\Google\Chrome\User Data'
+local_state = chromedir + '\Local State'
+local_state.gsub! '\\', '/'
+
+file = File.read(local_state)
 data_hash = JSON.parse(file)
 h = data_hash["browser"]
 if not h.has_key?("enabled_labs_experiments")
@@ -18,6 +22,6 @@ else
   end
 end
 
-File.open("local_state","w") do |f|
+File.open(local_state,"w") do |f|
   f.write(data_hash.to_json)
 end

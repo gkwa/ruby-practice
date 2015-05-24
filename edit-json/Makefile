@@ -1,5 +1,15 @@
 state := Local\ State
 
+test2: update_chrome_settings.exe
+	cmd /c update_chrome_settings.exe
+
+ucs: update_chrome_settings.exe
+update_chrome_settings.exe: local_state
+	cmd /c compile.bat
+
+edit_state.exe: local_state
+	ocra --output $@ edit_state.rb
+
 test: local_state
 	cat local_state | python -mjson.tool >local_state.pretty.before-edit
 	ruby edit_state.rb
@@ -26,9 +36,12 @@ pretty_goal:
 	cat goal/$(state) | python -mjson.tool >$(state)_goal.pretty
 
 clean:
+	rm -f edit_state.exe
+	rm -f update_chrome_settings.exe
 	rm -f *.pretty*
 	rm -f local_state
 	rm -f $(state)
 	rm -f tmp.3
 	rm -f tmp.2
 	rm -f tmp.1
+	rm -f NUL

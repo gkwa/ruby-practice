@@ -2,3 +2,4 @@ Local State
 local_state
 local_state.pretty.after-edit
 local_state.pretty.before-edit
+update_chrome_settings.exe

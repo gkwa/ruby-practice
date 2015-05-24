@@ -1,3 +1,7 @@
+Install ruby on windows 2012 x64:
+rem No! ruby 2.1 fails with ocra: choco install ruby --forcex86 --yes
+choco install ruby1.9 --forcex86 --yes
+
 Makefile has spaces:
 http://stackoverflow.com/a/23849694/1495086
 
@@ -13,6 +17,8 @@ http://railsapps.github.io/rails-3-2-example-gemfile.html
 Ruby check string nil or empty
 http://stackoverflow.com/a/251644/1495086
 
+Ruby commandline parameters
+http://stackoverflow.com/a/4248426/1495086
 
 ```
 make clean test
