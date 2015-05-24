@@ -1,3 +1,26 @@
+
+D:\pdev\ruby-practice\edit-json>ocra edit_state.rb --console --output update_chrome_settings.exe 
+/usr/share/rubygems/rubygems/dependency.rb:315:in `to_specs': Could not find 'ocra' (>= 0) among 9 total gem(s) (Gem::LoadError)
+Checked in 'GEM_PATH=/home/Administrator/.gem/ruby:/usr/share/gems:/usr/local/share/gems', execute `gem env` for more information
+	from /usr/share/rubygems/rubygems/dependency.rb:324:in `to_spec'
+	from /usr/share/rubygems/rubygems/core_ext/kernel_gem.rb:64:in `gem'
+	from C:\bin\ruby193\bin\ocra:22:in `<main>'
+Makefile:8: recipe for target 'update_chrome_settings.exe' failed
+make: *** [update_chrome_settings.exe] Error 1
+[Administrator@T1:/d/pdev/ruby-practice/edit-json(editjson)]$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Install ruby on windows 2012 x64:
 rem No! ruby 2.1 fails with ocra: choco install ruby --forcex86 --yes
 choco install ruby1.9 --forcex86 --yes
