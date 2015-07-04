@@ -4,6 +4,79 @@ https://www.cygwin.com/ml/cygwin/2014-11/msg00390.html
 
 gem environment
 
+*** 
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem environment
+RubyGems Environment:
+  - RUBYGEMS VERSION: 2.4.8
+  - RUBY VERSION: 2.2.2 (2015-04-13 patchlevel 95) [x86_64-cygwin]
+  - INSTALLATION DIRECTORY: /home/Administrator/.gem/ruby
+  - RUBY EXECUTABLE: /usr/bin/ruby.exe
+  - EXECUTABLE DIRECTORY: /home/Administrator/bin
+  - SPEC CACHE DIRECTORY: /home/Administrator/.gem/specs
+  - SYSTEM CONFIGURATION DIRECTORY: /etc
+  - RUBYGEMS PLATFORMS:
+    - ruby
+    - x86_64-cygwin
+  - GEM PATHS:
+     - /home/Administrator/.gem/ruby
+     - /usr/share/gems
+     - /usr/local/share/gems
+  - GEM CONFIGURATION:
+     - :update_sources => true
+     - :verbose => true
+     - :backtrace => false
+     - :bulk_threshold => 1000
+  - REMOTE SOURCES:
+     - https://rubygems.org/
+  - SHELL PATH:
+     - /home/Administrator/bin
+     - .
+     - /c/cygwin64/usr/local/bin
+     - /c/cygwin/usr/local/bin
+     - /c/cygwin64/bin
+     - /c/cygwin/bin
+     - /home/Administrator/bin
+     - .
+     - /c/cygwin64/usr/local/bin
+     - /c/cygwin/usr/local/bin
+     - /c/cygwin64/bin
+     - /c/cygwin/bin
+     - /home/Administrator/bin
+     - .
+     - /c/cygwin64/usr/local/bin
+     - /c/cygwin/usr/local/bin
+     - /c/cygwin64/bin
+     - /c/cygwin/bin
+     - /usr/local/bin
+     - /usr/bin
+     - /c/tools/ruby21/bin
+     - /c/Windows/system32
+     - /c/Windows
+     - /c/Windows/System32/Wbem
+     - /c/Windows/System32/WindowsPowerShell/v1.0
+     - /c/Program Files/Amazon/cfn-bootstrap
+     - /c/ProgramData/chocolatey/bin
+     - /c/Program Files (x86)/MySQL/MySQL Utilities
+     - /c/Program Files (x86)/MySQL/MySQL Utilities/Doctrine extensions for PHP
+     - /c/Program Files (x86)/QuickTime/QTSystem
+     - /c/MySQL/bin
+     - /c/php
+     - /c/Program Files (x86)/Git/cmd
+     - /c/Program Files/nodejs
+     - /c/tools/python
+     - /c/Program Files (x86)/Nmap
+     - /usr/bin
+     - /c/SLS_DB/tools
+     - /c/SLS_DB/tools/Junction
+     - /c/MySQL/bin
+     - /c/Users/Administrator/AppData/Roaming/npm
+     - /c/libjpeg-turbo64/bin
+     - /home/Administrator/.rvm/bin
+     - /home/Administrator/.rvm/bin
+     - /home/Administrator/.rvm/bin
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
 ** devkit for windows
 
 https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
