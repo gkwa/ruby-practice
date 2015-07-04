@@ -1,7 +1,4 @@
-
-
-
-**
+** 
 
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem update --system
 Updating rubygems-update
