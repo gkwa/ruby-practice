@@ -1,5 +1,13 @@
 ** 
 
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem --version
+2.4.8
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ ruby --version
+ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-cygwin]
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
+** 
+
 undefined method path for .gem/ruby : String (NoMethodError)
 
 undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
