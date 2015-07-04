@@ -1,44 +1,5 @@
-** update_rubygems
+** running ocra on cygwin
 
-update_rubygems
-
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ update_rubygems
-RubyGems 2.4.8 installed
-Parsing documentation for rubygems-2.4.8
-Installing ri documentation for rubygems-2.4.8
-
-=== 2.4.8 / 2015-06-08
-
-Bug fixes:
-
- * Tightened API endpoint checks for CVE-2015-3900
-
-
-------------------------------------------------------------------------------
-
-RubyGems installed the following executables:
-	/usr/bin/gem
-
-Ruby Interactive (ri) documentation was installed. ri is kind of like man 
-pages for ruby libraries. You may access it like this:
-  ri Classname
-  ri Classname.class_method
-  ri Classname#instance_method
-If you do not wish to install this documentation in the future, use the
---no-document flag, or set it as the default in your ~/.gemrc file. See
-'gem help env' for details.
-
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
-
-** 
-
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem --version
-2.4.8
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ ruby --version
-ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-cygwin]
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
-
-** 
 
 undefined method path for .gem/ruby : String (NoMethodError)
 
@@ -78,6 +39,46 @@ ocra parse.rb
 	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:1177:in `block in <top (required)>'
 Makefile:11: recipe for target 'parse.exe' failed
 make: *** [parse.exe] Error 1
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
+** update_rubygems
+
+update_rubygems
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ update_rubygems
+RubyGems 2.4.8 installed
+Parsing documentation for rubygems-2.4.8
+Installing ri documentation for rubygems-2.4.8
+
+=== 2.4.8 / 2015-06-08
+
+Bug fixes:
+
+ * Tightened API endpoint checks for CVE-2015-3900
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/usr/bin/gem
+
+Ruby Interactive (ri) documentation was installed. ri is kind of like man 
+pages for ruby libraries. You may access it like this:
+  ri Classname
+  ri Classname.class_method
+  ri Classname#instance_method
+If you do not wish to install this documentation in the future, use the
+--no-document flag, or set it as the default in your ~/.gemrc file. See
+'gem help env' for details.
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
+** 
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem --version
+2.4.8
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ ruby --version
+ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-cygwin]
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
 
 ** gem update --system
