@@ -8,7 +8,7 @@ test.tmp.ini:
 	cp test.ini $@
 
 parse.exe: parse.rb
-	cmd /c ocra parse.rb
+	ocra parse.rb
 
 clean:
 	rm -f parse.exe
