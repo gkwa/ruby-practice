@@ -1,6 +1,9 @@
 ** running ocra on cygwin
 
 
+cygwin ruby undefined method path for .gem/ruby
+
+
 undefined method path for .gem/ruby : String (NoMethodError)
 
 undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
