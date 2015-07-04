@@ -1,5 +1,47 @@
 ** 
 
+undefined method path for .gem/ruby : String (NoMethodError)
+
+undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
+
+
+
+/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41
+
+:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
+
+/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
+
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ make
+ocra parse.rb
+/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:19: warning: already initialized constant File::ALT_SEPARATOR
+=== Loading script to check dependencies
+=== Attempting to trigger autoload of Gem::ConfigFile
+=== Attempting to trigger autoload of Gem::DependencyList
+=== Attempting to trigger autoload of Gem::DependencyResolver
+=== Attempting to trigger autoload of Gem::Installer
+=== Attempting to trigger autoload of Gem::RequestSet
+=== Attempting to trigger autoload of Gem::Source
+=== Attempting to trigger autoload of Gem::SourceList
+=== Attempting to trigger autoload of Gem::SpecFetcher
+=== Attempting to trigger autoload of CGI::HtmlExtension
+=== Detected gem ocra-1.3.5 (loaded, files)
+=== 	6 files, 191333 bytes
+=== Detected gem iniparse-1.4.0 (loaded, files)
+=== 	9 files, 29455 bytes
+=== Including 53 encoding support files (3255791 bytes, use --no-enc to exclude)
+/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
+	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:779:in `block in build_exe'
+	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:762:in `each'
+	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:762:in `build_exe'
+	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:1177:in `block in <top (required)>'
+Makefile:11: recipe for target 'parse.exe' failed
+make: *** [parse.exe] Error 1
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
+** 
+
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem update --system
 Updating rubygems-update
 Fetching: rubygems-update-2.4.8.gem (100%)
@@ -46,44 +88,3 @@ If you do not wish to install this documentation in the future, use the
 RubyGems system software updated
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
 
-** 
-
-undefined method path for .gem/ruby : String (NoMethodError)
-
-undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
-
-
-
-/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41
-
-:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
-
-/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
-
-
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ make
-ocra parse.rb
-/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:19: warning: already initialized constant File::ALT_SEPARATOR
-=== Loading script to check dependencies
-=== Attempting to trigger autoload of Gem::ConfigFile
-=== Attempting to trigger autoload of Gem::DependencyList
-=== Attempting to trigger autoload of Gem::DependencyResolver
-=== Attempting to trigger autoload of Gem::Installer
-=== Attempting to trigger autoload of Gem::RequestSet
-=== Attempting to trigger autoload of Gem::Source
-=== Attempting to trigger autoload of Gem::SourceList
-=== Attempting to trigger autoload of Gem::SpecFetcher
-=== Attempting to trigger autoload of CGI::HtmlExtension
-=== Detected gem ocra-1.3.5 (loaded, files)
-=== 	6 files, 191333 bytes
-=== Detected gem iniparse-1.4.0 (loaded, files)
-=== 	9 files, 29455 bytes
-=== Including 53 encoding support files (3255791 bytes, use --no-enc to exclude)
-/home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:41:in `relative_path_from': undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
-	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:779:in `block in build_exe'
-	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:762:in `each'
-	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:762:in `build_exe'
-	from /home/Administrator/.gem/ruby/gems/ocra-1.3.5/bin/ocra:1177:in `block in <top (required)>'
-Makefile:11: recipe for target 'parse.exe' failed
-make: *** [parse.exe] Error 1
-[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
