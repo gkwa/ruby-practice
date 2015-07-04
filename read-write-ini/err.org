@@ -1,3 +1,18 @@
+** devkit for windows
+
+https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+
+
+DevKit Overview
+
+The DevKit is a toolkit that makes it easy to build and use native C/C++
+extensions such as RDiscount and RedCloth for Ruby on Windows.
+
+Simply download, double-click, choose an installation directory, run the
+Ruby install helper script, possibly tweak a config.yml file for your
+system specifics, and you’re ready to start using native Ruby
+extensions.
+
 ** running ocra on cygwin
 
 
