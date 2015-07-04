@@ -1,3 +1,59 @@
+
+
+
+**
+
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem update --system
+Updating rubygems-update
+Fetching: rubygems-update-2.4.8.gem (100%)
+Successfully installed rubygems-update-2.4.8
+Parsing documentation for rubygems-update-2.4.8
+Installing ri documentation for rubygems-update-2.4.8
+Installing darkfish documentation for rubygems-update-2.4.8
+Done installing documentation for rubygems-update after 2 seconds
+Parsing documentation for rubygems-update-2.4.8
+Done installing documentation for rubygems-update after 0 seconds
+Installing RubyGems 2.4.8
+RubyGems 2.4.8 installed
+Parsing documentation for rubygems-2.4.8
+Installing ri documentation for rubygems-2.4.8
+
+=== 2.4.8 / 2015-06-08
+
+Bug fixes:
+
+* Tightened API endpoint checks for CVE-2015-3900
+
+=== 2.4.7 / 2015-05-14
+
+Bug fixes:
+
+* Backport: Limit API endpoint to original security domain for CVE-2015-3900.
+  Fix by claudijd
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/usr/bin/gem
+
+Ruby Interactive (ri) documentation was installed. ri is kind of like man 
+pages for ruby libraries. You may access it like this:
+  ri Classname
+  ri Classname.class_method
+  ri Classname#instance_method
+If you do not wish to install this documentation in the future, use the
+--no-document flag, or set it as the default in your ~/.gemrc file. See
+'gem help env' for details.
+
+RubyGems system software updated
+[Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
+
+** 
+
+
+
+
 undefined method path for .gem/ruby : String (NoMethodError)
 
 undefined method `path' for "/home/Administrator/.gem/ruby":String (NoMethodError)
