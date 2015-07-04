@@ -1,3 +1,9 @@
+** gem environment
+
+https://www.cygwin.com/ml/cygwin/2014-11/msg00390.html
+
+gem environment
+
 ** devkit for windows
 
 https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
