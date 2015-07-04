@@ -48,7 +48,9 @@ Makefile:11: recipe for target 'parse.exe' failed
 make: *** [parse.exe] Error 1
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
 
-** 
+** gem update --system
+
+gem update --system
 
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ gem update --system
 Updating rubygems-update
