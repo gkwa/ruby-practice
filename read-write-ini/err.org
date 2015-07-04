@@ -19,13 +19,13 @@ Installing ri documentation for rubygems-2.4.8
 
 Bug fixes:
 
-* Tightened API endpoint checks for CVE-2015-3900
+ * Tightened API endpoint checks for CVE-2015-3900
 
 === 2.4.7 / 2015-05-14
 
 Bug fixes:
 
-* Backport: Limit API endpoint to original security domain for CVE-2015-3900.
+ * Backport: Limit API endpoint to original security domain for CVE-2015-3900.
   Fix by claudijd
 
 
@@ -47,9 +47,6 @@ RubyGems system software updated
 [Administrator@tl2:/tmp/ruby-practice/read-write-ini(cygwin)]$ 
 
 ** 
-
-
-
 
 undefined method path for .gem/ruby : String (NoMethodError)
 
