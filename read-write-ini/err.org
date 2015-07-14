@@ -79,8 +79,10 @@ RubyGems Environment:
 
 ** devkit for windows
 
-https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+devkit installer here:
+http://rubyinstaller.org/downloads/
 
+https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 
 DevKit Overview
 
