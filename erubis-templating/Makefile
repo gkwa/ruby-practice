@@ -1,3 +1,5 @@
+RM=rm
+
 test: example1.exe
 	$<
 
@@ -8,3 +10,4 @@ gem:
 	cmd /c bundle install
 
 clean:
+	$(RM) -f example1.exe
