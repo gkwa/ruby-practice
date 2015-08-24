@@ -1,7 +1,7 @@
-require 'iniparse'
+require 'IniParse'
 
 inifile='test.tmp.ini'
 
-document = iniparse.parse( File.read(inifile) )
+document = IniParse.parse( File.read(inifile) )
 document['driver']['key'] = "some new value"
 document.save(inifile)
